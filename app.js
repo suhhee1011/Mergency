@@ -6,10 +6,7 @@ const fileUpload = require('express-fileupload');
 const session = require('express-session');
 require('dotenv').config({path:"./config/keys.env"});
 
-
-
 const app = express();
-
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("public"));
@@ -17,50 +14,71 @@ app.use(express.static("public"));
 app.engine("handlebars",exphbs());
 app.set("view engine", "handlebars");
 
+//Connect to database
 mongoose.connect("mongodb+srv://admin-lmndang:nhat2601@cluster0.e8pu8.mongodb.net/medicalDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
-const patientsSchema = {
-    firsrName: String,
-    lastName: String,
-    bof: String,
-    address: String,
-    phone: String,
-    insuranceId: String,
-    disability: String,
-    medication: String
+//Schema of address
+const addressesSchema = {
+    id: Number,
+    streetName: String,
+    city: String,
+    province: String,
+    postalCode: String,
+    country: String,
+    latitude: Number,
+    longitude: Number
 }
 
-const doctorsSchema = {
-    firsrName: String,
+//Schema of patient
+const patientsSchema = {
+    id: Number,
+    firstName: String,
     lastName: String,
-    address: String,
+    bob: String,
+    gender: String,
+    email: String,
+    address: addressesSchema,
+    phone: String,
+    disability: String,
+}
+
+//Schema of helper
+const helpersSchema = {
+    id: Number,
+    firstName: String,
+    lastName: String,
+    address: addressesSchema,
+    phone: String
+}
+
+//Schema of doctor
+const doctorsSchema = {
+    id: Number,
+    firstName: String,
+    lastName: String,
+    address: addressesSchema,
     phone: String,
     field: String
 }
 
-const helpersSchema = {
-    firsrName: String,
-    lastName: String,
-    address: String,
-    phone: String
-}
-
+//Create colections
+const Address = mongoose.model("addrss", addressesSchema);
+const Patient = mongoose.model("patient", patientsSchema);
 const Helper = mongoose.model("helper", helpersSchema);
-
-const helper1 = Helper(
-    {
-        firsrName: "John",
-        lastName: "Smith",
-        address: "97 Clinton St, Toronto, ON M6G 2Y4",
-        phone: "4373335795"
-    }
-);
-
-//helper1.save();
+const Doctor = mongoose.model("doctor", doctorsSchema);
 
 
 //app.use(fileUpload());
   
+
+//Get all patients from database:
+Patient.find({}, function(err, foundPatient)
+{
+    foundPatient.forEach(patient => {
+        //console.log(patient);
+    });
+});
+
 
 app.use(session({
     secret: `${process.env.SECRET_KEY}`,

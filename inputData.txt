@@ -1,0 +1,52 @@
+// const address10 = Address(
+//     {
+//         id: 1002,
+//         streetName: "7 Rosedale Rd",
+//         city: "Toronto",
+//         province: "ON",
+//         postalCode: "M4W2P1",
+//         country: "Canada",
+//         longitude: 43.67504550100602,
+//         latitude: -79.38476645894556
+//     }
+// );
+
+// const patient2 = Patient(
+//     {
+//         id: 1,
+//         firstName: "Gina",
+//         lastName: "Kinworthy",
+//         dob: "21/09/1985",
+//         gender: "F",
+//         email: "gkinworthy4@feedburner.com",
+//         address: address10,
+//         phone: "4382539857",
+//         disability: "Left arm broken"
+//     }
+// );
+
+// const helper5 = Helper(
+//     {
+//         id: 5,
+//         firstName: "Zach",
+//         lastName: "Hillaby",
+//         address: address6,
+//         phone: "1294209120"
+//     }
+// );
+
+// const doctor3 = Doctor(
+//     {
+//         id: 1,
+//         firstName: "Antonin",
+//         lastName: "Titterrell",
+//         address: address9,
+//         phone: "6352459321",
+//         field: "General Practice"
+//     }
+// );
+
+//address10.save();
+//patient2.save();
+//helper5.save();
+//doctor3.save();
