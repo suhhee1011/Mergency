@@ -8,13 +8,6 @@ require('dotenv').config({path:"./config/keys.env"});
 
 
 
-
-
-
-//load product model
-const mainController = require("./router/main");
-
-
 const app = express();
 
 
@@ -27,7 +20,7 @@ app.set("view engine", "handlebars");
 
 
 
-app.use(fileUpload());
+//app.use(fileUpload());
   
 
 app.use(session({
@@ -41,8 +34,13 @@ app.use(session({
 
 })
 
+//load product model
+const helperController = require("./router/helper");
+const mainController = require("./router/main");
 //map each controller to the app object
+app.use("/helper",helperController);
 app.use("/",mainController);
+
 
 
 //MONGODB

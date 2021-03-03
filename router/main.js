@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
-module.exports = function(app, fs)
-{
+
     router.get("/appointment",(req,res)=>{
         res.render("appointment",{
             title: "appointment",
@@ -26,5 +25,5 @@ module.exports = function(app, fs)
             headingInfo:"nearByClinic",
         });
     });
-}
+
 module.exports=router;
