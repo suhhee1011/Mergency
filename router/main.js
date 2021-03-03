@@ -13,7 +13,7 @@ const router = express.Router();
             headingInfo:"emergency",
         });
     });
-    router.get("/home",(req,res)=>{
+    router.get("/",(req,res)=>{
         res.render("home",{
             title: "home",
             headingInfo:"home",
