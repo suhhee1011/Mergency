@@ -6,6 +6,7 @@
     position: absolute;
     border-radius: 20%;
     border : 5px rgb(209, 235, 198) solid;
+    z-index: -1;
     
 }
 .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
