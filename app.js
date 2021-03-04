@@ -7,9 +7,7 @@ const session = require('express-session');
 require('dotenv').config({path:"./config/keys.env"});
 
 
-
 const app = express();
-
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("public"));
@@ -18,10 +16,6 @@ app.engine("handlebars",exphbs());
 app.set("view engine", "handlebars");
 
 
-
-
-//app.use(fileUpload());
-  
 
 app.use(session({
     secret: `${process.env.SECRET_KEY}`,
@@ -37,6 +31,8 @@ app.use(session({
 //load product model
 const helperController = require("./router/helper");
 const mainController = require("./router/main");
+const patients = require("./model/patient");
+
 //map each controller to the app object
 app.use("/helper",helperController);
 app.use("/",mainController);

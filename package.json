@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google/maps": "^1.1.3",
     "@sendgrid/mail": "^6.5.3",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
@@ -18,8 +19,12 @@
     "express-fileupload": "^1.1.7-alpha.3",
     "express-handlebars": "^3.1.0",
     "express-session": "^1.17.0",
+<<<<<<< HEAD
     "leaflet": "^1.7.1",
     "mongoose": "^5.9.7",
+=======
+    "mongoose": "^5.11.15",
+>>>>>>> dfab43fdd4630bebf7b1e71946c26bd33ef8a279
     "path": "^0.12.7"
   },
   "devDependencies": {
