@@ -1,0 +1,28 @@
+.emergencyMap#map-template{
+    height: 60%;
+    width: 90%;
+    top: 100px;
+    left: 19px;
+    position: absolute;
+    border-radius: 20%;
+    border : 5px rgb(209, 235, 198) solid;
+    
+}
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+
+    top: 20px;
+    left: 20px;
+}
+body{
+    background-color: white;
+}
+div.doctor,div.helper{
+    position: relative;
+    top: 530px;
+    left: 30px;
+    display: inline-block;
+}
+div.doctor >*,div.helper>*{
+    color: black;
+   
+}
