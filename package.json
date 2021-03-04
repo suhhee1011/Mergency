@@ -17,16 +17,10 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-fileupload": "^1.1.7-alpha.3",
-    "express-handlebars": "^3.1.0",
-<<<<<<< HEAD
-    "express-session": "^1.17.0",
-    "mongoose": "^5.11.15",
-=======
+    "express-handlebars": "^3.1.0","path": "^0.12.7",
     "leaflet": "^1.7.1",
     "mongoose": "^5.11.15",
-    "express-session": "^1.17.0",
->>>>>>> ec1203edfdfce7bd587ee5bd09c1cc723b1a01e6
-    "path": "^0.12.7"
+    "express-session": "^1.17.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
