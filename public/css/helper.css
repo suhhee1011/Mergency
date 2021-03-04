@@ -56,17 +56,19 @@
 	width:93%;
 	top: 54px;
     align-self: center;
-    justify-self: center
+    justify-self: center;
+    z-index: -1;
 }
 
 
 #needyourhelp{
     height: 30px;
-    background-color: blue; 
+    background-color: #DC3545; 
     text-align: center;  
     margin:0;
     position:relative;
     top:410px;
+    color: white;
 }
 
 #needyourhelp p{
@@ -81,6 +83,8 @@
     display:flex;
     top:415px;
     margin:0;
+    height: 100px;
+    margin-top: 30px;
 }
 .progressbar{
     width:25px;
@@ -92,8 +96,9 @@
     flex-direction: column;
     background-color: antiquewhite;
     position: relative;
-
-    height:50vh;
+    padding-top: 10px;
+    padding-left: 10px;
+    height:100px;
     width:100%;
 }
 
@@ -104,7 +109,8 @@
 .inprogress{
     justify-self: right;
     text-align: right;
-    width:150px
+    width:150px;
+    background-color: antiquewhite;
 }
 
 .imgContainer{
@@ -129,3 +135,33 @@
     background-color: gray;
     align-items: center;
 }
+
+
+.blink-2 {
+	-webkit-animation: blink-2 1s 1s infinite both;
+	        animation: blink-2 1s 1s infinite both;
+}
+
+ @-webkit-keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
