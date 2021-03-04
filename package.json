@@ -18,13 +18,9 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.1.7-alpha.3",
     "express-handlebars": "^3.1.0",
-    "express-session": "^1.17.0",
-<<<<<<< HEAD
     "leaflet": "^1.7.1",
-    "mongoose": "^5.9.7",
-=======
     "mongoose": "^5.11.15",
->>>>>>> dfab43fdd4630bebf7b1e71946c26bd33ef8a279
+    "express-session": "^1.17.0",
     "path": "^0.12.7"
   },
   "devDependencies": {
