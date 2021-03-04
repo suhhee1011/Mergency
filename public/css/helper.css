@@ -1,0 +1,131 @@
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:40px;
+    width:100%;
+}
+
+#contactpatient{
+    height:50px;
+    background:lightgray;
+    z-index: 10;
+    display:flex;
+    justify-content: space-between;   
+    text-align: center;
+    width:100%;
+}
+.fa-phone-volume{
+    font-size:25px; 
+}
+.patient-info-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:100%;
+    width: fit-content;
+}
+.images{
+    width:fit-content;
+    align-self: center;
+
+}
+.images img{
+    border-radius: 50%;
+}
+.patient-info-wrapper{
+    display:flex;
+    flex-direction: column;
+  
+    text-align: left;
+    margin:10px 0 0 5px;
+}
+.contactBtn{
+    width:70px;
+    padding:2px;
+    margin:2px;
+    background-color: white;
+}
+
+.contactBtn p{
+    font-size:12px;
+}
+#map-template{
+	height: 50vh;
+	width:93%;
+	top: 54px;
+    align-self: center;
+    justify-self: center
+}
+
+
+#needyourhelp{
+    height: 30px;
+    background-color: blue; 
+    text-align: center;  
+    margin:0;
+    position:relative;
+    top:410px;
+}
+
+#needyourhelp p{
+    margin:5px;
+    padding:0;
+}
+
+#helperController{
+    height:40vh;
+    margin: 0 30px 0 30px;
+    position:relative;
+    display:flex;
+    top:415px;
+    margin:0;
+}
+.progressbar{
+    width:25px;
+    margin-right: 2px;
+}
+
+.HelperInfoWrapper{
+    display:flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    position: relative;
+
+    height:50vh;
+    width:100%;
+}
+
+.HelperInfoWrapper img{
+    border-radius: 50%;   
+}
+
+.inprogress{
+    justify-self: right;
+    text-align: right;
+    width:150px
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.progressBarWrapper{
+    margin:0 5px 0 5px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lineProgress{
+    height:100%;
+    width:0.5px;
+    background-color: gray;
+    align-items: center;
+}
