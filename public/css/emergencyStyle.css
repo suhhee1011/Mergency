@@ -14,7 +14,7 @@
 body{
     background-color: white;
 }
-div.doctor,div.helper{
+/* div.doctor,div.helper{
     position: relative;
     top: 530px;
     left: 30px;
@@ -23,4 +23,69 @@ div.doctor,div.helper{
 div.doctor >*,div.helper>*{
     color: black;
    
+} */
+
+.helper-detail
+{
+    position: relative;
+    top: 480px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
 }
+
+
+.helper-detail .helper
+{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.helper-detail .helper:nth-child(1)
+{
+    background-color:blanchedalmond;
+    padding: 10px;
+}
+
+.helper-detail .helper .title p:nth-child(1)
+{
+    font-weight: 600;
+}
+
+/* .lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .lds-dual-ring
+  {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10000;
+      background-color: rgb(190, 190, 190);
+  } */
