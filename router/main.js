@@ -25,5 +25,6 @@ const router = express.Router();
             headingInfo:"nearByClinic",
         });
     });
+        
 
 module.exports=router;
