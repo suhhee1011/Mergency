@@ -1,16 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-    router.get("/appointment",(req,res)=>{
-        res.render("appointment",{
-            title: "appointment",
-            headingInfo:"appointment",
-        });
-    });
+
     router.get("/emergency",(req,res)=>{
         res.render("emergency",{
             title: "emergency",
             headingInfo:"emergency",
+            script:`<script src="/js/helper_nearByClinic.js"></script>`
         });
     });
     router.get("/",(req,res)=>{

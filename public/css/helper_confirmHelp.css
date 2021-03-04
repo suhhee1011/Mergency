@@ -1,0 +1,33 @@
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:40px;
+    width:100%;
+}
+
+#confirmWrapper{
+    background:lightgray;
+    z-index: 10;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.introuble{
+    display:flex;
+}
+.introuble p{
+    width: fit-content;
+}
+
+h2{
+    text-align: center;
+}
+#map-template{
+    z-index:-5;
+	width:93%;
+    align-self: center;
+    justify-self: center
+}
