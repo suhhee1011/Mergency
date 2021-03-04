@@ -1,0 +1,70 @@
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:40px;
+    width:100%;
+    justify-items: center;
+}
+
+.helperWrapper{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.helperIconWrapper{
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fa-hand-holding-heart{
+    margin:0 5px 0 5px;
+}
+img{
+    border-radius: 50%;
+    align-self: center;
+}
+.starWrapper{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.excellent{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+.fa-heart{
+    margin:2px;
+}
+.feedback{
+    display:flex;
+    justify-content: space-around;
+    padding-top:25px;
+}
+.image{
+    width:120px
+}
+.feedback p{
+    margin-left:10px;
+    border:1px solid lightgray;
+    padding:5px;    
+}
+.levelup{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.levelup p{
+    text-align: center;
+}
+
+#slogan{
+    font-size: 10px;
+}
