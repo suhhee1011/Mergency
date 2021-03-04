@@ -207,10 +207,10 @@ img
  {
    transform: none;
  }
-body{
+/* body{
 	background-color: black;
 	color: white;
-}
+} */
 #map-template{
 	height:100%;
 	width:100%;
