@@ -217,3 +217,67 @@ img
 	top:0;
 	position:absolute
 }
+
+
+/******************************************* Home section Start******************************************/
+.home-text
+{
+    position: relative;
+}
+
+.home-section .row
+{
+    align-items: center;
+}
+
+.home-section .home-img
+{
+    margin-top: 50px;
+    flex: 0 0 100%;
+    padding: 0 15px;
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+.home-section .img-box
+{
+    max-width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.home-section .img-box img
+{
+    border-radius: 50%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.home-section .home-text
+{
+    position: absolute;
+    flex: 0 0 100%;
+    max-width: 100%;
+    top: 440px;
+    text-align: center;
+}
+
+.home-section .home-text h2
+{
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.home-section .home-text p
+{
+    margin-bottom: 30px;
+}
+
+.home-section .home-text a
+{
+    width: 200px;
+    height: 40px;
+    line-height: 28px;
+}
