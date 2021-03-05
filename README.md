@@ -1,8 +1,8 @@
-!!!!PLEASE READ THIS!!
-1. It is only possible to test on IPHONEX 
+# !!!!PLEASE READ THIS!!
+## 1. It is only possible to test on  IPHONEX 
 
 
-      how to Set to IPHONEX:
+      how to Set to  IPHONEX:
       
       
           1. Open in Chrome
@@ -15,8 +15,9 @@
 
 
 
-2. HEROKU URL
+## 2. HEROKU URL
     Patient Side : https://mergency.herokuapp.com/
+    
     Helper Side  : https://mergency.herokuapp.com/helper
  
           
