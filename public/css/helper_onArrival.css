@@ -59,18 +59,16 @@
     font-size:12px;
 }
 #map-template{
-	height: 49%;
-	width: 88%;
-	top: 70px;
-	align-self: center;
-	justify-self: center;
-	z-index: 0;
-	box-shadow: 2px 3px 5px grey;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	left: 25px;
+    height: 41.5%;
+    width: 93%;
+    top: 134px;
+    align-self: center;
+    justify-self: center;
+    z-index: 0;
+    box-shadow: 2px 3px 5px grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-
 
 
 #needyourhelp{
@@ -90,6 +88,7 @@ div.box{
     background-color: antiquewhite;
     border-radius: 10px;
     box-shadow: 2px 3px 5px grey;
+    margin-right:15px;
 }
 #needyourhelp p{
     margin:5px;
@@ -102,9 +101,8 @@ div.box{
     position:relative;
     display:flex;
     top:415px;
-    margin:0;
+    margin:30px 0 0 10px;
     height: 100px;
-    margin-top: 30px;
 }
 .progressbar{
     width:25px;
@@ -187,4 +185,6 @@ div.box{
       opacity: 1;
     }
   }
- 
+  #map-template > div.leaflet-pane.leaflet-map-pane > div.leaflet-pane.leaflet-marker-pane > img:nth-child(2){
+      border-radius: 50%;
+  }

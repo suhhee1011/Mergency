@@ -1,9 +1,10 @@
 .emergencyMap#map-template{
-    height: 50%;
-    width: 100%;
-    top: 80px;
+    height: 34%;
+    width: 90%;
+    top: 165px;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
+    left: 21px;
     border-radius: 20px;
     box-shadow: 2px 3px 5px grey;
 }
@@ -18,7 +19,7 @@ body{
     background-color: white;
 }
 
-div.doctor >*,div.helper>*{
+div.doctor >,div.helper>{
     color: black;
    
 } 
@@ -35,23 +36,28 @@ div.subtitle > div{
 .helper-detail
 {
     position: relative;
-    top: 480px;
+    top: 438px;
     left: 30px;
     display: flex;
     flex-direction: column;
+    font-size: 14px;
+    margin-top: 16px;
 }
+
+
 .helper-detail.top
 {
   
-    top: 510px;
-
+    top: 498px;
+    margin-top: -10px;
+    font-size: 16px;
 
 }
 .helper-detail.top> div
 {
   
-    height: 100px;
-    padding: 27px 12px 10px 35px;
+    height: 80px;
+    padding: 21px 12px 10px 35px;
 
 }
 

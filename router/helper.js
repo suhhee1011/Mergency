@@ -13,8 +13,8 @@ router.get("/",(req,res)=>{
 router.get("/helpPage",(req,res)=>{
     res.render("helper_HelpPage",{
         title: "nearByClinic",
-        headingInfo:"nearByClinic",
-        script:`<script src="/js/helper_nearByClinic.js"></script>`,
+        headingInfo:"Help Page",
+        script:`<script src="/js/helper_onArrival.js"></script>`,
         helper : true
     });
 });
@@ -32,6 +32,13 @@ router.get("/thankyou",(req,res)=>{
     res.render("helper_thankyou",{
         title: "Thank You",
         headingInfo:"Thank You",
+        helper : true
+    });
+});
+router.get("/bye",(req,res)=>{
+    res.render("helper_notHelping",{
+        title: "bye",
+        headingInfo:"bye",
         helper : true
     });
 });
