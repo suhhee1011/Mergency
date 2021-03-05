@@ -11,7 +11,7 @@
           2. Press F12
           
           3. set as IPHONEX(you can find in top part)
-          4. ![image](https://user-images.githubusercontent.com/50640730/110121072-e6245900-7d8b-11eb-8113-e87d79a74c16.png)
+          4. ![image](iphonex.PNG)
 
 
 
