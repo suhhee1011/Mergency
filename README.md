@@ -11,7 +11,7 @@
           2. Press F12
           
           3. set as IPHONEX(you can find in top part)
-          4. ![image](iphonex.PNG)
+   ![image](iphonex.PNG)
 
 
 
