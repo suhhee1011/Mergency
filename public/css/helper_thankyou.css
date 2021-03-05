@@ -81,8 +81,3 @@ img{
 p{
     margin-bottom:0px;
 }
-body > main > div.container.d-flex{
-    top: 55px;
-    width: 92%;
-    left: 6px;
-}

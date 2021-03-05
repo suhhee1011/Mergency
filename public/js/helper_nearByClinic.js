@@ -13,7 +13,7 @@ var doctorIcon = L.icon({
     shadowAnchor: [22, 94]
 });
 var helperIcon = L.icon({
-    iconUrl: '../image/helper.png',
+    iconUrl: '../image/Ghospital1.png',
     iconSize: [38, 50],
     iconAnchor: [22, 94],
     popupAnchor: [-3, -76],

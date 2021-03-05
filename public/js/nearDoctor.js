@@ -5,7 +5,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 var doctorIcon = L.icon({
-    iconUrl: '../image/hospital.png',
+    iconUrl: '../image/Ghospital1.png',
     iconSize: [38, 50],
     iconAnchor: [22, 94],
     popupAnchor: [-3, -76],

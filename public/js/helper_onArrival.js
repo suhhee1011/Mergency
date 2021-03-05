@@ -14,4 +14,4 @@ var patientIcon = L.icon({
 });
 
 const helperMarker = new L.marker([43.6552, -79.3822]).addTo(map).bindPopup('Helper: Billy');
-const patientMarker = new L.marker([43.6502, -79.3852],{icon : patientIcon}).addTo(map).bindPopup('Patient: Gina').openPopup();
+const patientMarker = new L.marker([43.6502, -79.3852],{icon : patientIcon}).addTo(map).bindPopup('Patient: Gina');

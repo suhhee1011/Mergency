@@ -23,6 +23,11 @@
     left: 7px;
     top: 24px;
 }
+#confirmWrapper > img{
+    position: absolute;
+left: 300px;
+border-radius: 50%;
+}
 
 h2{
     text-align: center;

@@ -1,19 +1,19 @@
-var mymap = L.map('map-template').setView([51.505, -0.09], 13);
+var mymap = L.map('map-template').setView([43.6532, -79.3832], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png',{
           detectRetina: true,
           maxZoom: 18,
           maxNativeZoom: 17,
 }).addTo(mymap)
 
-var marker = L.marker([51.5, -0.09]).addTo(mymap);
-var circle = L.circle([51.508, -0.11], {
+var marker = L.marker([43.653, -79.383]).addTo(mymap);
+var circle = L.circle([43.652, -79.38], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 500
 }).addTo(mymap);
 var polygon = L.polygon([
-    [51.509, -0.08],
-    [51.503, -0.06],
-    [51.51, -0.047]
+    [43.652, -79.38],
+    [43.652, -79.38],
+    [43.652, -79.38]
 ]).addTo(mymap);
