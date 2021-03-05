@@ -16,18 +16,27 @@
 }
 
 .introuble{
-    display:flex;
+    position: relative;
 }
 .introuble p{
-    width: fit-content;
+    position: relative;
+    left: 7px;
+    top: 13px;
 }
 
 h2{
     text-align: center;
 }
 #map-template{
-    z-index:-5;
+    z-index:0;
 	width:93%;
     align-self: center;
-    justify-self: center
+    justify-self: center;
+    box-shadow: 2px 3px 5px grey;
+}
+#confirmWrapper .introuble>button {    position: absolute;
+    top: 0;
+    left: 170px;
+    border-radius: 5px;
+    width: 176px;
 }

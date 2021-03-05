@@ -20,11 +20,6 @@ var helperIcon = L.icon({
     shadowAnchor: [22, 94]
 });
 
-const patientMarker = new L.marker([43.6552, -79.3822]).addTo(map).bindPopup('Helper: James');
-const helperMarker1 = new L.marker([43.6532, -79.3802],{icon : helperIcon}).addTo(map).bindPopup('Patient: Trang Nguyen');
-const helperMarker2 = new L.marker([43.6502, -79.3852],{icon : helperIcon}).addTo(map).bindPopup('Patient: Ethan');
-const helperMarker3 = new L.marker([43.6512, -79.3822],{icon : helperIcon}).addTo(map).bindPopup('Patient: Abdula');
+const patientMarker = new L.marker([43.6552, -79.3822]).addTo(map).bindPopup('Patient: You');
+const helperMarker1 = new L.marker([43.6532, -79.3802],{icon : helperIcon}).addTo(map).bindPopup('Helper: Trang Nguyen');
 const doctorMarker1 = new L.marker([43.6502, -79.3832],{icon : doctorIcon}).addTo(map).bindPopup('Doctor: Suhhee Kim');
-const doctorMarker2 = new L.marker([43.6502, -79.3802],{icon : doctorIcon}).addTo(map).bindPopup('Doctor: Suhhee Kim');
-const doctorMarker3 = new L.marker([43.6522, -79.3802],{icon : doctorIcon}).addTo(map).bindPopup('Doctor: Suhhee Kim');
-    

@@ -2,14 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
 /*----Global Style----*/
+
 body
 {
     font-size: 16px;
     line-height: 1.5;
     overflow-x: hidden;
-    background-color: var(--bg-black-50);
+ 
 }
-nav {z-index:0;}
+nav {z-index:0;
+  position: absolute;
+  top: 96px;}
 *
 {
     margin: 0;
@@ -21,7 +24,7 @@ nav {z-index:0;}
 *:not(i)
 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 ::before, ::after
@@ -178,7 +181,7 @@ img
  #menu
  {
    position: absolute;
-   width: 250px;
+   width: 254px;
    margin: -100px 0 0 -50px;
    padding: 50px;
    padding-top: 125px;
@@ -280,4 +283,16 @@ img
     width: 200px;
     height: 40px;
     line-height: 28px;
+}
+.backImage{
+  width: 380px;
+  height: 860px;
+  left: 0px;
+  background: url(../image/cellphone.png)no-repeat;
+  position: absolute;
+  z-index: 100;
+  top: -20px;
+  background-size: 869px 874px;
+  background-position: -239px -10px;
+  pointer-events: none;
 }

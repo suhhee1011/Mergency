@@ -3,28 +3,35 @@
     width: 100%;
     top: 80px;
     position: absolute;
-    z-index:-1;
-    
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px grey;
 }
+
 .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
 
     top: 20px;
     left: 20px;
+    box-shadow: 0px 3px 5px grey;
 }
 body{
     background-color: white;
 }
-/* div.doctor,div.helper{
-    position: relative;
-    top: 530px;
-    left: 30px;
-    display: inline-block;
-}
+
 div.doctor >*,div.helper>*{
     color: black;
    
-} */
-
+} 
+div.title{
+    width:130px;
+}
+div.subtitle {
+    border-bottom: 2px dotted rgb(212, 179, 129);
+}
+div.subtitle > div{
+    width:130px; 
+    display: inline-block;
+}
 .helper-detail
 {
     position: relative;
@@ -32,6 +39,20 @@ div.doctor >*,div.helper>*{
     left: 30px;
     display: flex;
     flex-direction: column;
+}
+.helper-detail.top
+{
+  
+    top: 510px;
+
+
+}
+.helper-detail.top> div
+{
+  
+    height: 100px;
+    padding: 27px 12px 10px 35px;
+
 }
 
 
@@ -41,13 +62,30 @@ div.doctor >*,div.helper>*{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    background-color: blanchedalmond;
+    padding: 10px 12px 10px 35px;
+    border-radius: 10px;
+    box-shadow: 1px;
+    box-shadow: 2px 3px 5px grey;
+
 }
 
-.helper-detail .helper:nth-child(1)
+
+.helper-detail .helpers
 {
-    background-color:blanchedalmond;
-    padding: 10px;
+    width: 320px;
+   
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: blanchedalmond;
+    padding: 10px 12px 10px 35px;
+    border-radius: 10px;
+    box-shadow: 1px;
+    box-shadow: 2px 3px 5px grey;
+
 }
+
+
 
 .helper-detail .helper .title p:nth-child(1)
 {
